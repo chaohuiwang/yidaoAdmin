@@ -1,0 +1,25 @@
+/* fallback */
+/*清除浮动*/
+.clear:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clear{display: inline-block;}
+.clear{zoom: 1; display: block;}
+.clear{height:0px;clear:both;font-size:0px;line-height:0px;zoom: 1;}
+.clearfix{*zoom:1;}
+.clearfix:after {clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+.pull-left {float: left;}
+.pull-right {float: right;}
+.tc {text-align: center;}
+.tl {text-align: left;}
+.tr {text-align: right;}
+.ivu-btn:focus {
+  box-shadow: none;
+}
+.vm {
+  vertical-align: middle;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
